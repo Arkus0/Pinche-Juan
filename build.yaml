@@ -1,0 +1,24 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        enabled: true
+        options:
+          # Generate union types and methods
+          union_key: type
+          union_value_case: FreezedUnionCase.pascal
+
+      json_serializable:
+        enabled: true
+        options:
+          any_map: false
+          checked: false
+          create_to_json: true
+          disallow_unrecognized_keys: false
+          explicit_to_json: false
+          field_rename: none
+          ignore_unannotated: false
+          include_if_null: true
+
+      riverpod_generator:
+        enabled: true

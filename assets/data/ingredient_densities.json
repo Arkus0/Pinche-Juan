@@ -1,0 +1,214 @@
+{
+  "version": "1.0.0",
+  "description": "Ingredient density database for KitchenOS. Density values in g/ml for volume-to-weight conversion.",
+  "ingredients": [
+    {
+      "id": "water",
+      "name": "Water",
+      "densityGramsPerMl": 1.0,
+      "category": "Liquids",
+      "aliases": ["h2o"],
+      "notes": "Standard reference density"
+    },
+    {
+      "id": "milk_whole",
+      "name": "Whole Milk",
+      "densityGramsPerMl": 1.03,
+      "category": "Liquids",
+      "aliases": ["milk"],
+      "notes": "Full-fat dairy milk"
+    },
+    {
+      "id": "oil_vegetable",
+      "name": "Vegetable Oil",
+      "densityGramsPerMl": 0.92,
+      "category": "Liquids",
+      "aliases": ["cooking oil", "canola oil"],
+      "notes": "Most common cooking oils"
+    },
+    {
+      "id": "oil_olive",
+      "name": "Olive Oil",
+      "densityGramsPerMl": 0.91,
+      "category": "Liquids",
+      "aliases": ["evoo", "extra virgin olive oil"],
+      "notes": ""
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "densityGramsPerMl": 1.42,
+      "category": "Liquids",
+      "aliases": [],
+      "notes": "Very dense liquid sweetener"
+    },
+    {
+      "id": "flour_ap",
+      "name": "All-Purpose Flour",
+      "densityGramsPerMl": 0.59,
+      "category": "Flours",
+      "aliases": ["ap flour", "white flour", "plain flour"],
+      "notes": "Sifted, not packed"
+    },
+    {
+      "id": "flour_bread",
+      "name": "Bread Flour",
+      "densityGramsPerMl": 0.61,
+      "category": "Flours",
+      "aliases": ["strong flour"],
+      "notes": "Higher protein content, slightly denser"
+    },
+    {
+      "id": "flour_cake",
+      "name": "Cake Flour",
+      "densityGramsPerMl": 0.57,
+      "category": "Flours",
+      "aliases": ["soft flour"],
+      "notes": "Lighter than all-purpose"
+    },
+    {
+      "id": "flour_whole_wheat",
+      "name": "Whole Wheat Flour",
+      "densityGramsPerMl": 0.56,
+      "category": "Flours",
+      "aliases": ["wholemeal flour"],
+      "notes": "Less dense due to bran content"
+    },
+    {
+      "id": "sugar_white",
+      "name": "White Sugar",
+      "densityGramsPerMl": 0.85,
+      "category": "Sugars",
+      "aliases": ["granulated sugar", "caster sugar"],
+      "notes": "Standard granulated"
+    },
+    {
+      "id": "sugar_brown",
+      "name": "Brown Sugar",
+      "densityGramsPerMl": 0.95,
+      "category": "Sugars",
+      "aliases": ["light brown sugar"],
+      "notes": "Packed measurement"
+    },
+    {
+      "id": "sugar_powdered",
+      "name": "Powdered Sugar",
+      "densityGramsPerMl": 0.56,
+      "category": "Sugars",
+      "aliases": ["confectioners sugar", "icing sugar"],
+      "notes": "Sifted, very light"
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "densityGramsPerMl": 0.96,
+      "category": "Fats",
+      "aliases": ["unsalted butter", "salted butter"],
+      "notes": "Solid at room temperature"
+    },
+    {
+      "id": "salt_table",
+      "name": "Table Salt",
+      "densityGramsPerMl": 1.22,
+      "category": "Seasonings",
+      "aliases": ["fine salt"],
+      "notes": "Fine grain"
+    },
+    {
+      "id": "salt_kosher",
+      "name": "Kosher Salt",
+      "densityGramsPerMl": 0.97,
+      "category": "Seasonings",
+      "aliases": ["coarse salt"],
+      "notes": "Coarser than table salt, less dense"
+    },
+    {
+      "id": "baking_powder",
+      "name": "Baking Powder",
+      "densityGramsPerMl": 0.95,
+      "category": "Leavening",
+      "aliases": [],
+      "notes": ""
+    },
+    {
+      "id": "baking_soda",
+      "name": "Baking Soda",
+      "densityGramsPerMl": 0.97,
+      "category": "Leavening",
+      "aliases": ["bicarbonate of soda"],
+      "notes": ""
+    },
+    {
+      "id": "cocoa_powder",
+      "name": "Cocoa Powder",
+      "densityGramsPerMl": 0.52,
+      "category": "Flours",
+      "aliases": ["cacao powder"],
+      "notes": "Unsweetened, sifted"
+    },
+    {
+      "id": "rice_white",
+      "name": "White Rice",
+      "densityGramsPerMl": 0.85,
+      "category": "Grains",
+      "aliases": ["long grain rice"],
+      "notes": "Uncooked"
+    },
+    {
+      "id": "oats_rolled",
+      "name": "Rolled Oats",
+      "densityGramsPerMl": 0.41,
+      "category": "Grains",
+      "aliases": ["old fashioned oats"],
+      "notes": "Not instant"
+    },
+    {
+      "id": "yogurt",
+      "name": "Yogurt",
+      "densityGramsPerMl": 1.04,
+      "category": "Dairy",
+      "aliases": ["plain yogurt"],
+      "notes": "Whole milk yogurt"
+    },
+    {
+      "id": "sour_cream",
+      "name": "Sour Cream",
+      "densityGramsPerMl": 0.95,
+      "category": "Dairy",
+      "aliases": [],
+      "notes": ""
+    },
+    {
+      "id": "cream_heavy",
+      "name": "Heavy Cream",
+      "densityGramsPerMl": 1.01,
+      "category": "Dairy",
+      "aliases": ["whipping cream", "double cream"],
+      "notes": ""
+    },
+    {
+      "id": "peanut_butter",
+      "name": "Peanut Butter",
+      "densityGramsPerMl": 1.05,
+      "category": "Spreads",
+      "aliases": [],
+      "notes": "Smooth, not crunchy"
+    },
+    {
+      "id": "maple_syrup",
+      "name": "Maple Syrup",
+      "densityGramsPerMl": 1.37,
+      "category": "Liquids",
+      "aliases": [],
+      "notes": "Pure maple syrup"
+    },
+    {
+      "id": "molasses",
+      "name": "Molasses",
+      "densityGramsPerMl": 1.41,
+      "category": "Liquids",
+      "aliases": ["blackstrap molasses"],
+      "notes": "Very dense"
+    }
+  ]
+}
